@@ -2,9 +2,9 @@ def alphabetize(arr)
   arr.sort! do |a, b|
     word1 = a.split(" ")[0]
     word2 = b.split(" ")[0]
-    word1.split!("")
-    word2.split!("")
-    word1 <=> word2
+    test1.split!("")
+    test2.split!("")
+    test1 <=> test2
   end
 end
 

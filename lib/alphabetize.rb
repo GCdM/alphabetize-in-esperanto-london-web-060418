@@ -24,7 +24,3 @@ end
 def compare_chars(a, b)
   esperanto_alphabet_order(a) <=> esperanto_alphabet_order(b)
 end
-
-def compare_words(word1, word2)
-  
-end

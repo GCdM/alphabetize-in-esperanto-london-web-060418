@@ -1,7 +1,8 @@
 def alphabetize(arr)
-  arr.sort! {
-    |string1, string2| esperanto_alphabet.index(string1[0]) <=> esperanto_alphabet.index(string2[0])
-  }
+  sorted_arr = []
+  arr.each do |string|
+    sorted_arr
+  end
 end
 
 def esperanto_alphabet

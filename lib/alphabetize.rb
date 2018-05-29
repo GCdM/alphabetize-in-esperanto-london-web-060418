@@ -1,9 +1,10 @@
 def alphabetize(arr)
   sorted_arr = []
-  arr.each_with_index do |string, index|
-    test_str = string.to_a
+  arr.each_with_index do |string, i|
     sorted_arr.each_with_index do |sorted, index|
-      
+      test_word = string.to_a[0]
+      test_sort = sorted.to_a[0]
+      case compare_chars(test_word)
     end
   end
 end

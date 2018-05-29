@@ -1,5 +1,7 @@
 def alphabetize(arr)
-  arr.sort_by!
+  arr.sort_by! {
+    |string| 
+  }
 end
 
 def esperanto_alphabet

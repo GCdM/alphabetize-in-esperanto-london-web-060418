@@ -5,11 +5,13 @@ def alphabetize(arr)
     test1 = word1.split("")
     test2 = word2.split("")
     counter = 0
+    check = 0
     loop do
       check = compare_chars(test1[counter], test2[counter])
       break if check == 1 || check == -1
       counter += 1
     end
+    return check
   end
 end
 

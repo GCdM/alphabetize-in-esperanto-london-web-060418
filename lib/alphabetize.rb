@@ -1,5 +1,5 @@
 def alphabetize(arr)
-  for i in 
+  (4..0)
     arr.sort_by {
       |string| esperanto_alphabet_order(string[i])
     }

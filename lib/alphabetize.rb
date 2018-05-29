@@ -1,6 +1,10 @@
 def alphabetize(arr)
   arr.sort! do |a, b|
-    a.to_a[]
+    word1 = a.to_a[0]
+    word2 = b.to_a[0]
+    word1.split!("")
+    word2.split!("")
+    word1 <=> word2
   end
 end
 

@@ -11,3 +11,7 @@ def esperanto_alphabet_order(char)
   esperanto_array = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split("")
   return esperanto_array.index(char)
 end
+
+def join_string(string)
+  string = string.join(" ")
+end

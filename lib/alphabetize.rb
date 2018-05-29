@@ -4,7 +4,12 @@ def alphabetize(arr)
     word2 = b.split(" ")[0]
     test1 = word1.split("")
     test2 = word2.split("")
-    test1 <=> test2
+    counter = 0
+    loop do
+      check = compare_chars(test1[counter], test2[counter])
+      break if check == 1 || check == -1
+      counter += 1
+    end
   end
 end
 

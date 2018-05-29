@@ -1,8 +1,9 @@
 def alphabetize(arr)
-  for 
-  arr.sort_by {
-    |string| esperanto_alphabet_order(string[0])
-  }
+  for i in (0..5).reverse
+    arr.sort_by {
+      |string| esperanto_alphabet_order(string[i])
+    }
+  end
 end
 
 def esperanto_alphabet_order(char)

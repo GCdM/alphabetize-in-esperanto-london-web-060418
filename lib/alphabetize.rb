@@ -6,7 +6,7 @@ def alphabetize(arr)
     while word1 == word2
       index += 1
       word1 = a.split(" ")[index]
-      word2 = a.split(" ")[index]
+      word2 = b.split(" ")[index]
     end
     test1 = word1.split("")
     test2 = word2.split("")

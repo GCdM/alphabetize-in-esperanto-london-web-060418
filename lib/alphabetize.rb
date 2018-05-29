@@ -1,6 +1,6 @@
 def alphabetize(arr)
   arr.sort_by! {
-    |string| 
+    |string| string.each_char <=> esperanto_alphabet
   }
 end
 

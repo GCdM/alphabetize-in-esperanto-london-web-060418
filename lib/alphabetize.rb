@@ -1,6 +1,7 @@
 def alphabetize(arr)
+  for 
   arr.sort_by {
-    |string| esperanto_alphabet_order(string[0],string[1],string[2])
+    |string| esperanto_alphabet_order(string[0])
   }
 end
 

@@ -1,10 +1,10 @@
 def alphabetize(arr)
-  sorted_arr = []
-  arr.each do |string|
-    sorted_arr
-  end
+  arr.sort_by {
+    |string| esperanto_alphabet_order(string[0])
+  }
 end
 
-def esperanto_alphabet
+def esperanto_alphabet_order(char)
   esperanto_array = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split("")
+  return esperanto_array.index(char)
 end

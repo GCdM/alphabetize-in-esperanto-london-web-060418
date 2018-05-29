@@ -11,7 +11,7 @@ def alphabetize(arr)
       break if check == 1 || check == -1
       counter += 1
     end
-    return check
+    check
   end
 end
 

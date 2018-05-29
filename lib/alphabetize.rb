@@ -1,9 +1,9 @@
 def alphabetize(arr)
-  range = 4..0
+  range = 2..0
   (range.first).downto(range.last).each do |i|
-    arr.sort_by {
-      |string| esperanto_alphabet_order(string[i])
-    }
+    arr.sort_by! do |string|
+      esperanto_alphabet_order(string[i])
+    end
   end
 end
 
